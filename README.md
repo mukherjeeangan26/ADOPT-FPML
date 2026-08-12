@@ -1,8 +1,8 @@
 # ADOPT-FPML
 
 [![CI](https://github.com/mukherjeeangan26/ADOPT-FPML/actions/workflows/ci.yml/badge.svg)](https://github.com/mukherjeeangan26/ADOPT-FPML/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/adopt-fpml.svg)](https://pypi.org/project/adopt-fpml/)
-[![Python](https://img.shields.io/pypi/pyversions/adopt-fpml.svg)](https://pypi.org/project/adopt-fpml/)
+[![PyPI](https://img.shields.io/pypi/v/adopt-fpml.svg?cacheSeconds=300)](https://pypi.org/project/adopt-fpml/)
+[![Python](https://img.shields.io/pypi/pyversions/adopt-fpml.svg?cacheSeconds=300)](https://pypi.org/project/adopt-fpml/)
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](LICENSE)
 
 **A**utomatic **D**iscovery of **OPT**imal hybrid **F**irst **P**rinciples–**M**achine **L**earning models.
