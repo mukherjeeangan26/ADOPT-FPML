@@ -1,0 +1,27 @@
+{
+  "format": "adopt-fpml.numpy-mlp.v1",
+  "stage": 1,
+  "structure": "series_1",
+  "input_names": [
+    "fp_T_out",
+    "T_in",
+    "CA0",
+    "fp_CB",
+    "fp_CC"
+  ],
+  "target_outputs": [
+    "CA",
+    "CB",
+    "CC",
+    "T_out"
+  ],
+  "resolved_outputs": [
+    "CB",
+    "CC"
+  ],
+  "aicc": 7373.00266232848,
+  "parameter_count": 84,
+  "train_loss": 0.02890347740020654,
+  "validation_loss": 0.04943873081769742,
+  "parameter_file": "block_01_series_1.npz"
+}

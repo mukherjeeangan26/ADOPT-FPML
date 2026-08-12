@@ -1,0 +1,6 @@
+include *.md LICENSE CITATION.cff .gitignore .gitattributes
+recursive-include .github *.yml *.yaml
+recursive-include src/adopt_fpml/data *.csv *.json *.npz
+recursive-include examples *.py *.md
+recursive-include docs *.md
+prune work

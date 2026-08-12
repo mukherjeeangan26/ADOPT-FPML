@@ -1,0 +1,24 @@
+{
+  "format": "adopt-fpml.numpy-mlp.v1",
+  "stage": 2,
+  "structure": "parallel",
+  "input_names": [
+    "fp_T_out",
+    "series_1_pred_T_out",
+    "series_1_pred_CA",
+    "T_in"
+  ],
+  "target_outputs": [
+    "CA",
+    "T_out"
+  ],
+  "resolved_outputs": [
+    "CA",
+    "T_out"
+  ],
+  "aicc": 3331.3991614916863,
+  "parameter_count": 58,
+  "train_loss": 0.007808340794493794,
+  "validation_loss": 0.012129613650298335,
+  "parameter_file": "block_02_parallel.npz"
+}

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use ADOPT-FPML, please cite this software and the associated manuscript."
+title: "ADOPT-FPML: Automatic Discovery of Optimal Hybrid First Principles–Machine Learning Models"
+type: software
+version: 0.1.0
+date-released: 2026-08-12
+url: "https://github.com/mukherjeeangan26/ADOPT-FPML"
+repository-code: "https://github.com/mukherjeeangan26/ADOPT-FPML"
+license: BSD-3-Clause
+authors:
+  - family-names: Mukherjee
+    given-names: Angan
+    affiliation: "University of Wisconsin–Madison and West Virginia University"
+  - family-names: Giridhar
+    given-names: Nishant V.
+    affiliation: "West Virginia University"
+  - family-names: Bhattacharyya
+    given-names: Debangsu
+    affiliation: "West Virginia University"
+    email: "Debangsu.Bhattacharyya@mail.wvu.edu"
+preferred-citation:
+  type: unpublished
+  title: "On the Automatic Discovery of Optimal Hybrid First Principles – Machine Learning Models for Interconnected Systems"
+  authors:
+    - family-names: Mukherjee
+      given-names: Angan
+    - family-names: Giridhar
+      given-names: Nishant V.
+    - family-names: Bhattacharyya
+      given-names: Debangsu
+  year: 2026
+  notes: "Manuscript in preparation; update this provisional record after publication."

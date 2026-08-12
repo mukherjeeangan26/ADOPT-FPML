@@ -1,0 +1,28 @@
+{
+  "format": "adopt-fpml.numpy-mlp.v1",
+  "stage": 2,
+  "structure": "integrated",
+  "input_names": [
+    "fp_F_liq",
+    "T_feed"
+  ],
+  "ml_output_names": [
+    "UA",
+    "K_A",
+    "K_B",
+    "K_C"
+  ],
+  "target_outputs": [
+    "F_liq",
+    "y_A"
+  ],
+  "resolved_outputs": [
+    "F_liq",
+    "y_A"
+  ],
+  "local_aicc": -13683.671093550216,
+  "parameter_count": 60,
+  "train_loss": 0.5025477309575128,
+  "validation_loss": 1.6733161766345714,
+  "parameter_file": "block_02_integrated.npz"
+}

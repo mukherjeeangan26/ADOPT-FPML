@@ -1,0 +1,45 @@
+{
+  "format": "adopt-fpml.numpy-mlp.v1",
+  "stage": 1,
+  "structure": "series_1",
+  "input_names": [
+    "fp_x_A",
+    "fp_x_C"
+  ],
+  "ml_output_names": [
+    "F_vap",
+    "F_liq",
+    "T_vap",
+    "T_liq",
+    "y_A",
+    "y_B",
+    "y_C",
+    "x_A",
+    "x_B"
+  ],
+  "target_outputs": [
+    "F_vap",
+    "F_liq",
+    "T_vap",
+    "T_liq",
+    "y_A",
+    "y_B",
+    "y_C",
+    "x_A",
+    "x_B"
+  ],
+  "resolved_outputs": [
+    "F_vap",
+    "T_vap",
+    "T_liq",
+    "y_B",
+    "y_C",
+    "x_A",
+    "x_B"
+  ],
+  "local_aicc": 11780.9279857504,
+  "parameter_count": 105,
+  "train_loss": 0.14392945287987943,
+  "validation_loss": 0.10054803541692628,
+  "parameter_file": "block_01_series_1.npz"
+}
