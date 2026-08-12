@@ -83,7 +83,8 @@ def _cooler_k(temperature: float, constants: E2Constants) -> Array:
 
 
 def _cooler_temperature(z: Array, constants: E2Constants) -> float:
-    function = lambda temperature: _rr(constants.beta_cooler_target, z, _cooler_k(temperature, constants))
+    def function(temperature: float) -> float:
+        return _rr(constants.beta_cooler_target, z, _cooler_k(temperature, constants))
     grid = np.linspace(180, 650, 500)
     values = np.array([function(value) for value in grid])
     for i in range(len(grid) - 1):
