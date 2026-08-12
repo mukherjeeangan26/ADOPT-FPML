@@ -11,7 +11,7 @@ ADOPT-FPML discovers a parsimonious information-flow architecture for a system t
 
 This repository contains the proposed discovery algorithm, an installable Python package, two complete synthetic case studies, data-generation code, portable pretrained model artifacts, tests, and documentation. It intentionally does **not** copy full baseline-training programs that are already available in the cited literature.
 
-> **Publication status:** the accompanying manuscript, *On the Automatic Discovery of Optimal Hybrid First Principles – Machine Learning Models for Interconnected Systems*, by Angan Mukherjee, Nishant V. Giridhar, and Debangsu Bhattacharyya, is currently a manuscript in preparation. Replace this note and the provisional citation when a DOI and final bibliographic details become available.
+> **Publication:** Mukherjee, A., Giridhar, N. V. and Bhattacharyya, D. *On the Automatic Discovery of Optimal Hybrid First Principles – Machine Learning Models for Interconnected Systems* (manuscript under review)
 
 ## What ADOPT-FPML searches
 
